@@ -4,6 +4,9 @@
     "city" : "San Francisco",
     "image" : "https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg",
     "owner" : "Veruca Salt",
+    "reviews" : {
+      "-Ke7601fzQF6jf3_rgiP" : true
+    },
     "type" : "Estate"
   }, {
     "bedrooms" : 1,
@@ -36,13 +39,27 @@
     "owner" : "Mike Teavee",
     "type" : "Condo"
   } ],
-  "reviews": [{
-    "author": "Andrea",
-    "rating": 4,
-    "content": "Did not fall down."
-  }, {
-    "author": "Alex",
-    "rating": 9,
-    "content": "Nice view of the volcano!"
-  }]
+  "reviews" : {
+    "0" : {
+      "author" : "Andrea",
+      "content" : "Did not fall down.",
+      "rating" : 4
+    },
+    "1" : {
+      "author" : "Alex",
+      "content" : "Nice view of the volcano!",
+      "rating" : 9
+    },
+    "-Ke72-uk8cTrhXSSGRec" : {
+      "author" : "Sandra",
+      "content" : "Very Bad",
+      "rating" : "1"
+    },
+    "-Ke7601fzQF6jf3_rgiP" : {
+      "author" : "david",
+      "content" : "good",
+      "rating" : "9",
+      "rental" : "0"
+    }
+  }
 }

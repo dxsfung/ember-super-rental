@@ -1,8 +1,0 @@
-Improving your Windows experience
-
-Ensure Search and Defender ignore your project’s tmp directory:
-
-1. npm install --save-dev ember-cli-windows-addon
-Then, to start the automatic configuration, run:
-
-2. ember windows

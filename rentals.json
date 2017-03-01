@@ -44,5 +44,10 @@
     "author": "Alex",
     "rating": 9,
     "content": "Nice view of the volcano!"
+  }],
+  "announcements": [{
+    "date": "20 Jan 2017",
+    "title": "Special Discount for Chinese New Year",
+    "message": "All transactions from 20 January 2017 to 20 February 2017 will get 50% discount on rental commissions charged."
   }]
 }

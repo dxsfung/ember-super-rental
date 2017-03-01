@@ -1,4 +1,18 @@
-<h1> Welcome to Super Rentals </h1> We hope you find exactly what you're looking for in a place to stay.
+<h1> Welcome to Super Rentals </h1>
+
+<h3> Special Announcements </h3>
+
+<div class="announcement">
+  <ul>
+    {{#each model.announcements as |announcement|}}
+      {{announcement-tile announcement=announcement destroyAnnouncement="destroyAnnouncement"}}
+    {{/each}}
+  </ul>
+  {{new-announcement saveAnnouncement="saveAnnouncement"}}
+
+</div>
+
+<h3>We have the following rental stocks for you today: </h3>
 
 <ol>
   {{#each model.rentals as |rental|}}

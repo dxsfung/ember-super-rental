@@ -6,6 +6,9 @@ export default Ember.Component.extend({
     reviewFormShow() {
       this.set('addNewReview', true);
     },
+    reviewFormHide() {
+      this.set('addNewReview', false);
+    },
     saveReview() {
      var params = {
        author: this.get('author'),

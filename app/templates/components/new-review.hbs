@@ -15,6 +15,7 @@
         {{input value=content id="content"}}
       </div>
       <button {{action 'saveReview'}}>Save</button>
+        {{#link-to 'rental'}}<button type="button" {{action 'reviewFormHide'}}>Cancel</button> {{/link-to}}
     </form>
   </div>
 {{else}}

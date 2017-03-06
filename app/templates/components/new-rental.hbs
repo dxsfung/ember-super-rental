@@ -22,9 +22,12 @@
         <label for="image">Image URL</label> {{input value=image id="image"}}
       </div>
 
+      <div class="form-group">
+        <label for="cost">Cost per night</label> {{input value=cost id="cost"}}
+      </div>
+
       <button {{action 'saveRental1'}}>Save</button>
       {{#link-to 'index'}}<button type="button" {{action 'rentalFormHide'}}>Cancel</button> {{/link-to}}
-
     </form>
   </div>
 {{else}}

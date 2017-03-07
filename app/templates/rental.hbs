@@ -2,7 +2,12 @@
 
 {{update-rental rental=model update="update"}}
 
+<h2> Shopping Cart Content</h2>
+{{display-cart}}
+
 <!-- {{rental-detail rental=model destroyRental="destroyRental"}} -->
+
+<hr>
 {{rental-detail rental=model destroyRental="destroyRental" destroyReview="destroyReview"}}
 
 {{new-review saveReview="saveReview" rental=model}}

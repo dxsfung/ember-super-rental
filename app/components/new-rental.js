@@ -9,14 +9,16 @@ export default Ember.Component.extend({
     rentalFormHide() {
       this.set('addNewRental', false);
     },
-      saveRental1() {
+    saveRental1() {
       var params = {
         owner: this.get('owner') ? this.get('owner') : "",
         city: this.get('city') ? this.get('city') : "",
         type: this.get('type') ? this.get('type') : "",
         image: this.get('image') ? this.get('image') : "",
         bedrooms: this.get('bedrooms') ? this.get('bedrooms') : "",
-        cost: parseInt(this.get('cost')) ? this.get('cost') : ""
+        cost: parseInt(this.get('cost')) ? this.get('cost') : "",
+        latitude: this.get('latitude'),
+        longitude: this.get('longitude')
       };
       this.set('addNewRental', false);
       this.sendAction('saveRental2', params);
@@ -25,7 +27,7 @@ export default Ember.Component.extend({
       this.set('type', "");
       this.set('image', "");
       this.set('bedrooms', "");
-      this.set('cost',"");
+      this.set('cost', "");
     }
   }
 });

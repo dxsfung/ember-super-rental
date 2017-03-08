@@ -1,0 +1,168 @@
+{
+  "announcements" : {
+    "-Ke8PMSAe2_gpyAj3O75" : {
+      "date" : "a",
+      "message" : "c",
+      "title" : "b"
+    }
+  },
+  "rentals" : {
+    "1" : {
+      "bedrooms" : 1,
+      "city" : "Seattle 1",
+      "cost" : "",
+      "image" : "https://upload.wikimedia.org/wikipedia/commons/0/0e/Alfonso_13_Highrise_Tegucigalpa.jpg",
+      "owner" : "Mike Teavee",
+      "reviews" : {
+        "-KeTxgkesWmdXm1wmCqb" : true,
+        "-KeTxoDshZ6XuCbs67VP" : true,
+        "-KeU-5zygdDQaTZ2mnzm" : true,
+        "-KeU-IPAvNKcbTDqPBLJ" : true,
+        "-KeU-LwhU7stNg6i089-" : true
+      },
+      "type" : "Condo -record 1",
+      "latitude": 22.279242,
+      "longitude": 114.161548
+    },
+    "2" : {
+      "bedrooms" : 3,
+      "city" : "Melbourne 2",
+      "cost" : "100",
+      "image" : "https://upload.wikimedia.org/wikipedia/commons/f/f7/Wheeldon_Apartment_Building_-_Portland_Oregon.jpg",
+      "owner" : "Violet Beauregarde",
+      "reviews" : {
+        "-Ke7nCubbmFNA-WQf_Ki" : true,
+        "-Ke7nEtiAW7JNa38KdGB" : true,
+        "-Ke7nGJSgK1d0X4wcUAM" : true
+      },
+      "type" : "Mansion"
+    },
+    "3" : {
+      "bedrooms" : 1,
+      "city" : "Seattle 3",
+      "cost" : "",
+      "image" : "https://upload.wikimedia.org/wikipedia/commons/0/0e/Alfonso_13_Highrise_Tegucigalpa.jpg",
+      "owner" : "Terry Stevenson",
+      "reviews" : {
+        "-KeTX81vmzshJfDbdEog" : true,
+        "-KeTXBcDFWRVl4tjXgcX" : true,
+        "-KeTXG-5lBBwEAv33cjp" : true,
+        "-KeTXPzJxY-gOYzuJBy8" : true,
+        "-KeTXSpwmVwCJtqabYna" : true
+      },
+      "type" : "Condo"
+    },
+    "4" : {
+      "bedrooms" : 1,
+      "city" : "Shanghai 4",
+      "cost" : "49",
+      "image" : "https://upload.wikimedia.org/wikipedia/commons/0/0e/Alfonso_13_Highrise_Tegucigalpa.jpg",
+      "owner" : "Super Man",
+      "reviews" : {
+        "-Ke7nPxa3JK62kw_Tdxg" : true,
+        "-Ke7nSC1MMJSoFBH95ZN" : true
+      },
+      "type" : "House"
+    },
+    "-Ke8LYEny4FG5ffxVWcs" : {
+      "bedrooms" : "",
+      "city" : "Manch",
+      "cost" : "48",
+      "image" : "",
+      "owner" : "david",
+      "type" : "House"
+    }
+  },
+  "reviews" : {
+    "-Ke7nCubbmFNA-WQf_Ki" : {
+      "author" : "bbb",
+      "content" : "2-1",
+      "rating" : "22",
+      "rental" : "2"
+    },
+    "-Ke7nEtiAW7JNa38KdGB" : {
+      "author" : "bbb",
+      "content" : "2-2",
+      "rating" : "22",
+      "rental" : "2"
+    },
+    "-Ke7nGJSgK1d0X4wcUAM" : {
+      "author" : "bbb",
+      "content" : "2-3",
+      "rating" : "22",
+      "rental" : "2"
+    },
+    "-Ke7nPxa3JK62kw_Tdxg" : {
+      "author" : "ccc",
+      "content" : "3-1",
+      "rating" : "333",
+      "rental" : "4"
+    },
+    "-Ke7nSC1MMJSoFBH95ZN" : {
+      "author" : "ccc",
+      "content" : "3-2",
+      "rating" : "333",
+      "rental" : "4"
+    },
+    "-KeTX81vmzshJfDbdEog" : {
+      "author" : "a1",
+      "content" : "review 1 for rental 3",
+      "rating" : "1",
+      "rental" : "3"
+    },
+    "-KeTXBcDFWRVl4tjXgcX" : {
+      "author" : "a2",
+      "content" : "review 2 for rental 3",
+      "rating" : "1",
+      "rental" : "3"
+    },
+    "-KeTXG-5lBBwEAv33cjp" : {
+      "author" : "a3",
+      "content" : "review 3 for rental 3",
+      "rating" : "3",
+      "rental" : "3"
+    },
+    "-KeTXPzJxY-gOYzuJBy8" : {
+      "author" : "a4",
+      "content" : "review 4 for rental 3",
+      "rating" : "3",
+      "rental" : "3"
+    },
+    "-KeTXSpwmVwCJtqabYna" : {
+      "author" : "a5",
+      "content" : "review 5 for rental 3",
+      "rating" : "3",
+      "rental" : "3"
+    },
+    "-KeTxgkesWmdXm1wmCqb" : {
+      "author" : "author 8",
+      "content" : "rating 45",
+      "rating" : 45,
+      "rental" : "1"
+    },
+    "-KeTxoDshZ6XuCbs67VP" : {
+      "author" : "author 8",
+      "content" : "rating 45",
+      "rating" : 51,
+      "rental" : "1"
+    },
+    "-KeU-5zygdDQaTZ2mnzm" : {
+      "author" : "author 8",
+      "content" : "rating 46",
+      "rating" : 46,
+      "rental" : "1"
+    },
+    "-KeU-IPAvNKcbTDqPBLJ" : {
+      "author" : "author 8",
+      "content" : "rating 40",
+      "rating" : 40,
+      "rental" : "1"
+    },
+    "-KeU-LwhU7stNg6i089-" : {
+      "author" : "author 8",
+      "content" : "rating 43",
+      "rating" : 43,
+      "rental" : "1"
+    }
+  }
+}

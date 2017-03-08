@@ -18,3 +18,8 @@ h3 {
 .announcement {
   font: red !important;
 }
+
+.map-display {
+    height: 600px;
+    width: 600px;
+  }
